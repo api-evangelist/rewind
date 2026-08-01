@@ -1,0 +1,7 @@
+generated: '2026-07-20'
+method: searched
+source: https://status.rewind.com/
+note: Rewind publishes no public developer API, so there is no API versioning or
+  deprecation policy to capture; the operational status page below is real and
+  first-party.
+status_page: https://status.rewind.com/
