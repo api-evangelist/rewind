@@ -2,6 +2,8 @@ generated: '2026-10-13'
 method: searched
 checked:
 - https://aws.amazon.com/marketplace/
+- https://github.com/marketplace?type=apps
+- https://marketplace.atlassian.com/
 marketplace_apps: []
 edges:
 - partner_name: AWS Marketplace
@@ -23,3 +25,42 @@ edges:
   seller_name: Rewind Software Inc.
   detected_by: sweep-cloud-marketplaces.py
   detected: '2026-10-13'
+- partner_name: GitHub Marketplace (apps)
+  partner: github
+  partner_match: aggregator
+  type: marketplace
+  marketplace: github-apps
+  channel: partner-built
+  relationship: platform-app
+  direction: third-party
+  evidence: https://github.com/marketplace/backhub
+  listing_count: 1
+  apps:
+  - Rewind Backups for GitHub
+  publisher_name: Rewind Backups for GitHub
+  badges:
+  - Verified creator
+  detected_by: sweep-devtools.py
+  detected: '2026-10-14'
+- partner_name: Atlassian Marketplace
+  partner: atlassian
+  partner_match: aggregator
+  type: marketplace
+  marketplace: atlassian
+  channel: partner-built
+  relationship: platform-app
+  direction: third-party
+  evidence: https://marketplace.atlassian.com/vendors/1219507/rewind
+  listing_count: 3
+  apps:
+  - Rewind Backups for Jira
+  - Rewind Backups for Confluence
+  - Rewind Backups for Bitbucket
+  publisher_name: Rewind
+  badges:
+  - Cloud Fortified
+  detected_by: sweep-devtools.py
+  detected: '2026-10-14'
+source:
+- https://github.com/marketplace?type=apps
+- https://marketplace.atlassian.com/
