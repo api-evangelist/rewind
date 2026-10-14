@@ -39,3 +39,16 @@
   relationship: platform-app
   status: not-a-workflow
   arazzo: null
+- slug: rewind-okta-own
+  label: Okta (own)
+  partner: okta
+  partner_name: Okta (own)
+  category: Identity Verification
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://www.okta.com/integrations/rewindbackupsforoktaapiservice/
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
