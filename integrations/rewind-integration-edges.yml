@@ -5,6 +5,7 @@ checked:
 - https://github.com/marketplace?type=apps
 - https://marketplace.atlassian.com/
 - okta/integrations/okta-integration-edges.yml
+- shopify/integrations/shopify-integration-edges.yml
 marketplace_apps: []
 edges:
 - partner_name: AWS Marketplace
@@ -84,6 +85,22 @@ edges:
   features:
   - API
   - CUSTOM_SOM
+- partner_name: Shopify (own)
+  partner: shopify
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: own
+  evidence: https://apps.shopify.com/backup
+  mirror_of: shopify/integrations/shopify-integration-edges.yml
+  apps:
+  - Rewind Backups
+  listing_count: 1
+  detected: '2026-10-15'
+  detected_by: mirror-platform-listings.py
 source:
 - https://github.com/marketplace?type=apps
 - https://marketplace.atlassian.com/
