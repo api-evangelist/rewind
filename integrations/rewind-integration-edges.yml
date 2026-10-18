@@ -4,6 +4,7 @@ checked:
 - https://aws.amazon.com/marketplace/
 - https://github.com/marketplace?type=apps
 - https://marketplace.atlassian.com/
+- monday-com/integrations/monday-com-integration-edges.yml
 - okta/integrations/okta-integration-edges.yml
 - shopify/integrations/shopify-integration-edges.yml
 marketplace_apps: []
@@ -101,6 +102,25 @@ edges:
   listing_count: 1
   detected: '2026-10-15'
   detected_by: mirror-platform-listings.py
+- partner_name: Monday.com (own)
+  partner: monday-com
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: own
+  evidence: https://monday.com/marketplace/listing/10000793
+  mirror_of: monday-com/integrations/monday-com-integration-edges.yml
+  apps:
+  - Rewind Backups for monday.com
+  listing_count: 1
+  detected: '2026-10-18'
+  detected_by: mirror-platform-listings.py
+  category: monday.com app
+  publisher_verified:
+  - monday.com security & compliance flag
 source:
 - https://github.com/marketplace?type=apps
 - https://marketplace.atlassian.com/
