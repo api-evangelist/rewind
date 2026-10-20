@@ -1,5 +1,12 @@
-generated: '2026-10-13'
+generated: '2026-10-20'
 method: searched
+source:
+- https://github.com/marketplace?type=apps
+- https://marketplace.atlassian.com/
+- https://zapier.com/apps/rewind/integrations
+- https://n8n.io/integrations/rewind/
+- https://composio.dev/toolkits/rewind
+- https://monid.ai/tools/rewind
 checked:
 - https://aws.amazon.com/marketplace/
 - https://cloudsecurityalliance.org/star/registry
@@ -9,6 +16,11 @@ checked:
 - monday-com/integrations/monday-com-integration-edges.yml
 - okta/integrations/okta-integration-edges.yml
 - shopify/integrations/shopify-integration-edges.yml
+- https://composio.dev/toolkits/rewind
+- https://monid.ai/tools/rewind
+- https://n8n.io/integrations/rewind/
+- https://zapier.com/apps/rewind/integrations
+summary: null
 marketplace_apps: []
 edges:
 - partner_name: AWS Marketplace
@@ -153,6 +165,4 @@ edges:
     detected: '2026-10-20'
   detected_by: sweep-compliance-assurance.py
   first_seen: '2026-10-20'
-source:
-- https://github.com/marketplace?type=apps
-- https://marketplace.atlassian.com/
+templates: []
