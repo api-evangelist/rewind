@@ -107,3 +107,16 @@
     detected: '2026-10-20'
   status: not-a-workflow
   arazzo: null
+- slug: rewind-miro-own
+  label: Miro (own)
+  partner: miro
+  partner_name: Miro (own)
+  category: Miro app
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://miro.com/marketplace/rewind/
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
