@@ -64,6 +64,91 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Rewind is a company surfaced as a portfolio company of bessemer-venture-partners, insight-partners and added to the API Evangelist network as a stub for enrichment. Sector: cloud. This profile is a lead awaiting the enrichment pipeline.
+Rewind is an Ottawa-based SaaS data backup and recovery company that provides automated, item-level backups and rapid self-serve restoration for more than 20 cloud applications across ecommerce, development, accounting, productivity, and IT/security categories, including Shopify, BigCommerce, Klaviyo, Mailchimp, GitHub, Jira, Confluence, Bitbucket, Azure DevOps, Miro, QuickBooks Online, monday.com, Trello, Okta, and MS Entra ID. Trusted by 25,000+ organizations protecting over 7 petabytes of data, Rewind is SOC 2 Type II, ISO 27001, HIPAA, GDPR, and CCPA aligned. Rewind is backed by Bessemer Venture Partners and Insight Partners. Rewind delivers its protection as a hosted SaaS product and does not publish a public developer API; this profile captures its security posture and public web properties.
 
-Backed by: bessemer-venture-partners, insight-partners — https://rewind.com/
+**Areas:** Company · Cloud · Backup · Data Recovery · Software-as-a-Service · Data Protection · Disaster Recovery · Security
+
+## Rewind on APIs.io
+
+Everything profiled for Rewind is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/rewind/](https://apis.io/providers/rewind/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Rewind Domain Security](https://apis.io/security/rewind/rewind-domain-security/)
+- [Rewind Trust Center](https://apis.io/security/rewind/rewind-trust-center/)
+- [Rewind Vulnerability Disclosure](https://apis.io/security/rewind/rewind-vulnerability-disclosure/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://rewind.com/)
+- [Pricing](https://rewind.com/pricing/)
+- [Sign up](https://app.rewind.com/users/sign_up)
+- [Support](https://help.rewind.com/hc/en-us)
+- [Blog](https://rewind.com/blog/)
+- [Security](https://rewind.com/legal/vulnerability-disclosure-policy/)
+- [Compliance](https://rewind.com/trust/)
+- [Terms of service](https://rewind.com/legal/terms-of-service/)
+- [Privacy policy](https://rewind.com/legal/privacy-notice/)
+- [GitHub](https://github.com/rewindio)
+- [Status](https://status.rewind.com/)
+
+## API Evangelist rating
+
+**Kin Score 22.5** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 21.1 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 60.5 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 24.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/rewind/](https://apis.io/providers/rewind/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Rewind: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/rewind/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
